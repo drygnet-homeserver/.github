@@ -1,1 +1,34 @@
-### About and so on
+## The Plan
+
+Multiple docker containers for all the things I need
+
+### Services
+
+Just docker and a few scrips...
+
+#### Scripts
+[smee.io](https://smee.io) -client to proxy webhook calls from github when new code and config is pushed
+
+[adnanh/webhook](https://github.com/adnanh/webhook) to react on the webhook calls
+
+Run the scrips as services use [lingon](https://www.peterborgapps.com/lingon/) to help building the config)
+
+#### Containers
+
+* nginx reverse proxy
+    
+    To route traffic from internet to the web-GUIs of the apps that have GUIs
+    
+* portainer
+    
+    To manage the containers on the server
+
+* MongoDB
+    
+    For all of the apps I will build 😎
+    
+* dev-server
+    
+    A dynamic but opinionated backend that stores data in mongo 
+    
+* 
