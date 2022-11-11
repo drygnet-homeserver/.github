@@ -31,4 +31,10 @@ Run the scrips as services use [lingon](https://www.peterborgapps.com/lingon/) t
     
     A dynamic but opinionated backend that stores data in mongo 
     
-* 
+* docker compose for other apps i may need will be here
+
+    ... and will be deployed by the scripts like everything else 
+    
+* apps developed by me
+
+    for fun and profit (I wish)
