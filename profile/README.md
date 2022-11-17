@@ -4,7 +4,7 @@ Multiple docker containers for all the things I need
 
 ### Services
 
-Just docker and a few scrips...
+Just docker and a few scrips... [(code)](https://github.com/drygnet-homeserver/scripts)
 
 #### Scripts
 [smee.io](https://smee.io) -client to proxy webhook calls from github when new code and config is pushed
@@ -15,17 +15,21 @@ Run the scrips as services (use [lingon](https://www.peterborgapps.com/lingon/) 
 
 #### Containers
 
-* nginx reverse proxy
+* nginx reverse proxy [(code)](https://github.com/drygnet-homeserver/www)
     
     To route traffic from internet to the web-GUIs of the apps that have GUIs
     
-* portainer
+* portainer [(code)](https://github.com/drygnet-homeserver/portainer)
     
     To manage the containers on the server
 
-* MongoDB
+* MongoDB [(code)](https://github.com/drygnet-homeserver/mongodb)
     
     For all of the apps I will build 😎
+    
+* mongodb-express [(code)](https://github.com/drygnet-homeserver/mongo-express)
+    
+    To manage MongoDB
     
 * dev-server
     
