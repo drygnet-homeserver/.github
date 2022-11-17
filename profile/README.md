@@ -11,7 +11,7 @@ Just docker and a few scrips...
 
 [adnanh/webhook](https://github.com/adnanh/webhook) to react on the webhook calls
 
-Run the scrips as services use [lingon](https://www.peterborgapps.com/lingon/) to help building the config)
+Run the scrips as services (use [lingon](https://www.peterborgapps.com/lingon/) to help building the config)
 
 #### Containers
 
