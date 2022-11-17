@@ -4,9 +4,9 @@ Multiple docker containers for all the things I need
 
 ### Services
 
-Just docker and a few scrips... [(code)](https://github.com/drygnet-homeserver/scripts)
+Just docker and a few scrips... 
 
-#### Scripts
+#### Scripts [(code)](https://github.com/drygnet-homeserver/scripts)
 [smee.io](https://smee.io) -client to proxy webhook calls from github when new code and config is pushed
 
 [adnanh/webhook](https://github.com/adnanh/webhook) to react on the webhook calls
