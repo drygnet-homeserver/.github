@@ -31,6 +31,20 @@ Run the scrips as services (use [pm2](https://pm2.io/))
     
     To manage MongoDB
     
+* Uptime kuma
+   
+    To monitor services
+    
+* Guacamole
+
+    For remote management
+    
+* AdGuard Home
+
+    For ad-blocking and local dns(?)
+
+    
+    
 * dev-server
     
     A dynamic but opinionated backend that stores data in mongo 
