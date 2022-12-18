@@ -15,9 +15,10 @@ Run the scrips as services (use [pm2](https://pm2.io/))
 
 #### Containers
 
-* nginx reverse proxy [(code)](https://github.com/drygnet-homeserver/www)
+* jwilder/nginx-proxy [(code)](https://github.com/drygnet-homeserver/www)
     
-    To route traffic from internet to the web-GUIs of the apps that have GUIs
+    To route traffic from internet to the web-GUIs of the apps that have GUIs.
+    This version does automatic nginx-comfig for other deployed containers based on metadata
     
 * portainer [(code)](https://github.com/drygnet-homeserver/portainer)
     
