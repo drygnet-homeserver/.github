@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T19:50:20.837Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="O13SKN1Kskbrx5VaX5wl" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-22T20:10:39.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="_lwM_OXRqCI21FQG5m7x" type="github">
   <diagram id="JLR_Yey9GiF7x5AprpwH" name="Sida-1">
-    <mxGraphModel dx="954" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="1617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="jTgAPqtQga1EYfZvtNZl-4" value="PROXMOX" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="210" y="230" width="460" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="jTgAPqtQga1EYfZvtNZl-1" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="10" width="200" height="140" as="geometry" />
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-1" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-10" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="jTgAPqtQga1EYfZvtNZl-2" value="cloudflare" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="90" width="160" height="90" as="geometry" />
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-2" value="cloudflare" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=11;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="jTgAPqtQga1EYfZvtNZl-3" value="Tunnels" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -20,10 +20,65 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jTgAPqtQga1EYfZvtNZl-6" value="Kasm" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="270" width="150" height="90" as="geometry" />
+          <mxGeometry x="250" y="270" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="jTgAPqtQga1EYfZvtNZl-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/operating-system-flat-1/30/ubuntu-128.png" vertex="1" parent="jTgAPqtQga1EYfZvtNZl-6">
           <mxGeometry x="-16" y="-14" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/social-media-and-payment/64/-36-128.png" vertex="1" parent="jTgAPqtQga1EYfZvtNZl-6">
+          <mxGeometry x="80" y="30" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-14" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Code.svg;" vertex="1" parent="jTgAPqtQga1EYfZvtNZl-6">
+          <mxGeometry x="16" y="89" width="50.46" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/kameleon-free-pack/110/Hacker-128.png" vertex="1" parent="jTgAPqtQga1EYfZvtNZl-6">
+          <mxGeometry x="73.5" y="75" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://learnkali.org/wp-content/uploads/2021/06/Logo.png;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-16" value="Docker" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="270" width="150" height="258" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/operating-system-flat-1/30/ubuntu-128.png" vertex="1" parent="jTgAPqtQga1EYfZvtNZl-16">
+          <mxGeometry x="-16" y="-14" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-25" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/social-media-2127/48/social_media_social_media_logo_docker-128.png" vertex="1" parent="jTgAPqtQga1EYfZvtNZl-16">
+          <mxGeometry y="110" width="79" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.blumira.com/wp-content/uploads/2020/09/NGINX-logo-rgb-large.png;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="115.41" height="38.84" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=58;endSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="390" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="574.5" y="338.84" as="sourcePoint" />
+            <mxPoint x="574.5" y="398.84" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-26" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/social-media-2127/48/social_media_social_media_logo_docker-128.png" vertex="1" parent="1">
+          <mxGeometry x="571" y="380" width="79" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-27" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/social-media-2127/48/social_media_social_media_logo_docker-128.png" vertex="1" parent="1">
+          <mxGeometry x="499" y="445" width="79" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-28" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/social-media-2127/48/social_media_social_media_logo_docker-128.png" vertex="1" parent="1">
+          <mxGeometry x="570" y="445" width="79" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-31" value="DEPLOY" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;strokeWidth=3;" edge="1" parent="1" source="jTgAPqtQga1EYfZvtNZl-29" target="jTgAPqtQga1EYfZvtNZl-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-29" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/social-media-and-logos-11/32/Logo_Github-128.png" vertex="1" parent="1">
+          <mxGeometry x="690" y="160" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-32" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/5969/5969044.png;" vertex="1" parent="1">
+          <mxGeometry x="391.5" y="60" width="97" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-33" value="Random VMs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="435" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-38" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/KDE_Crystal_Diamond_2.5_Classical_Mod/128x128/filesystems/khelpcenter2.png" vertex="1" parent="jTgAPqtQga1EYfZvtNZl-33">
+          <mxGeometry x="-16" y="-12" width="45" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
