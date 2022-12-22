@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T19:39:11.512Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="UgDZD6p4Ll4mhXYyNGGG" type="github"><diagram id="pqGBE9cUbHK3TLR8Ancb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-22T19:50:20.837Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="O13SKN1Kskbrx5VaX5wl" type="github">
+  <diagram id="JLR_Yey9GiF7x5AprpwH" name="Sida-1">
+    <mxGraphModel dx="954" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-4" value="PROXMOX" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="210" y="230" width="460" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-1" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="10" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-2" value="cloudflare" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="90" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-3" value="Tunnels" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439.5" y="150" as="sourcePoint" />
+            <mxPoint x="439.5" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-6" value="Kasm" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="270" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jTgAPqtQga1EYfZvtNZl-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/operating-system-flat-1/30/ubuntu-128.png" vertex="1" parent="jTgAPqtQga1EYfZvtNZl-6">
+          <mxGeometry x="-16" y="-14" width="49" height="49" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
